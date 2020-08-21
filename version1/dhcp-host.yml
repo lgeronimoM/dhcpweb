@@ -1,0 +1,6 @@
+# Main playbook
+---
+- become: 'true'
+  hosts: dhcp-queretaro
+  roles:
+  - /TI/DHCP/version1/administradordhcp/app/ansible-role-dhcp
